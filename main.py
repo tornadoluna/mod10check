@@ -4,7 +4,7 @@ def checkDigit(upc): #this is the method that checks the check digit
         print("mod10 digit is correct");
     else:
         print("mod10 digit is incorrect");
-checkDigit(code)#calls the method on the data inputed by the user
+checkDigit(code)#calls the method on the data inputed by the use
 def checkLoop(code):
     total = 0
     for i in range(10):
